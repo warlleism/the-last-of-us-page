@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100;10..100,200;10..100,300;10..100,400;10..100,500;10..100,600;10..100,700;10..100,800;10..100,900&display=swap');
+
+.main-Interpreter {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .titulo-Interpreter {
+        color: #fff;
+        font-family: 'Imbue', serif;
+        font-size: 1.7rem;
+        letter-spacing: 29px;
+        font-weight: 100;
+        margin: 100px 0px;
+
+    }
+
+    .container-cards-interpreters {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        .container-interpreters {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: relative;
+            align-items: center;
+            background-color: #DCD8CE;
+            width: 250px;
+            height: 110px;
+            margin-left: 40px;
+            margin-top: 30px;
+
+            .squares{
+                right: 5px;
+                bottom: 4px;
+                height: 10px;
+                display: flex;
+                position: absolute;
+                div{
+                    margin: 3px;
+                    width: 4px;
+                    height: 4px;
+                    background-color: #0C0C0C;
+                }
+            }
+
+            img {
+                max-width: 80px;
+                left: -40px;
+                position: absolute;
+            }
+
+            div {
+                margin-left: 30px;
+                letter-spacing: 2px;
+                font-family: 'Imbue', serif;
+            }
+
+            div:nth-child(3) {
+                margin-bottom: 20px;
+            }
+
+            div:nth-child(3) {
+                margin-bottom: 20px;
+                font-size: .8rem;
+            }
+
+            div:nth-child(4) {
+                margin-bottom: 10px;
+                font-size: 1.6rem;
+
+            }
+        }
+    }
+}
