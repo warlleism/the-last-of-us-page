@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100;10..100,200;10..100,300;10..100,400;10..100,500;10..100,600;10..100,700;10..100,800;10..100,900&display=swap');
+
+.main-awards {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .board{
+        bottom: -30px;
+        width: 700px;
+        left: -320px;
+        height: 300px;
+        position: absolute;
+        transform: rotate(410deg);
+        background-color: #dcd8ce;
+    }
+
+    .arrow-top{
+        position: absolute;
+        right: 40px;
+        bottom: 10%;
+        color: #fff;
+        padding: 20px 0;
+        cursor: pointer;
+        border: solid 1px #fff;
+        span{
+            font-size: 4rem;
+        }
+    }
+
+    .titulo-awards {
+        color: #fff;
+        font-weight: 100;
+        font-size: 1.7rem;
+        margin: 100px 0px;
+        letter-spacing: 22px;
+        font-family: 'Imbue', serif;
+    }
+
+    .container-cards-awards {
+        width: 80%;
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        justify-content: space-around;
+
+        .container-awards {
+            gap: 2;
+            width: 230px;
+            height: 110px;
+            display: flex;
+            margin-top: 30px;
+            position: relative;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+
+            div {
+                font-family: 'Imbue', serif;
+            }
+
+            div:nth-child(2) {
+                font-size: .9rem;
+                letter-spacing: 2px;
+                color: rgb(121, 121, 121);
+            }
+
+            div:nth-child(3) {
+                font-size: 1rem;
+                letter-spacing: 2px;
+            }
+
+            .container-img-awards {
+                padding: 17px;
+                border-radius: 100px;
+                border: solid 2px #fff;
+                display: flex;
+                align-items: center;
+            }
+
+        }
+    }
+}
